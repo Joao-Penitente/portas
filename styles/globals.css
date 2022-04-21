@@ -1,6 +1,7 @@
 :root{
   --area-porta-altura: 310px;
   --area-porta-largura: 200px;
+  --verde:#00ff00;
 }
 html,
 body {

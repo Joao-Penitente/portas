@@ -11,10 +11,10 @@
 .estrutura{
     display: flex;
     flex-grow: 1;
-    border-left: 5px solid brown;
-    border-top: 5px solid brown;
-    border-right: 5px solid brown;
-    background-color: #0005;
+    border-left: 5px solid rgb(112, 101, 101);
+    border-top: 5px solid rgb(112, 101, 101);
+    border-right: 5px solid rgb(112, 101, 101);
+    background-color: rgba(135, 145, 138, 0);
     flex-direction: column-reverse;
     width: 90%;
 
@@ -25,18 +25,18 @@
     align-items: center;
     flex-grow: 1;
     padding: 15px;
-    background-color: chocolate;
+    background-color: rgba(0, 0, 0, 0.658);
 }
 
 .numero{
     font-size: 3rem;
-    color: black;
+    color: red;
 }
 
 .chao{
     height: 10px;
     width: 100%;
-    background-color: white;
+    background-color: rgb(209, 209, 209);
 }
 
 .macaneta{
@@ -45,20 +45,20 @@
     top: calc(0.45 * var(--area-porta-altura));
     height: 20px;
     width: 20px;
-    background-color: brown;
+    background-color: rgb(112, 101, 101);
     border-radius: 10px;
 }
 
 .selecionada {
-    border-left: 5px solid yellow;
-    border-top: 5px solid yellow;
-    border-right: 5px solid yellow;
+    border-left: 5px solid var(--verde);
+    border-top: 5px solid var(--verde);
+    border-right: 5px solid var(--verde);
 }
 
 .selecionada .numero{
-    color: yellow;
+    color: var(--verde);
 }
 
 .selecionada .macaneta{
-    background-color: yellow;
+    background-color: var(--verde);
 }

@@ -6,7 +6,7 @@ interface PortaProps{
     onChange: (novaPorta: PortaModel) => void
 }
 
-export default (props) => {
+export default function Porta(props: PortaProps){
     const  porta  = props.value
     const selecionada = porta.selecionada && !porta.aberta ? styles.selecionada : ''
 
