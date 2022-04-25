@@ -14,7 +14,7 @@ export default function Jogo(){
         const portas = +router.query.portas;
         const temPresente = +router.query.temPresente;
 
-        const qtdePortasValidas = portas >= 3 && portas <= 50;
+        const qtdePortasValidas = portas >= 3 && portas <= 18;
         const temPresenteValido = temPresente >= 1 && temPresente <= portas;
 
         setValido(qtdePortasValidas && temPresenteValido)
